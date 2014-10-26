@@ -9,12 +9,12 @@ expd <- initExperiment( basepath )
 
 ## copy data in the data folder
 dataFile <- "sampleTrain.csv" 
-fileUrl <- 'https://raw.githubusercontent.com/atno/ExperimentManager_sample/master/sampleTrain.csv'
+fileUrl <- 'https://raw.githubusercontent.com/atno/ExperimentManager/master/sample/sampleTrain.csv'
 download.file(fileUrl, destfile = paste0(basepath,"data/",dataFile) )
 
 ## copy R script in the script folder
 scriptFile <- "sampleScript.R"
-fileUrl = 'https://raw.githubusercontent.com/atno/ExperimentManager_sample/master/sampleScript.R'
+fileUrl = 'https://raw.githubusercontent.com/atno/ExperimentManager/master/sample/sampleScript.R'
 download.file(fileUrl, destfile = paste0(basepath,"myScriptList/",scriptFile) )
 
 
