@@ -1,11 +1,9 @@
 Experiment Manager
 =================
 
-this R package makes simple to version control your quick-and-erratic experiments by keeping a full history of the code script along with the results, console output generated.  
-
-You will be able to go back and look at previous experiments, retrieve all the previous result along with the exact code version used to generate it.
-
-The ideal tool to keep track of your experiments in a Kaggle competition.
+* this R package makes simple to version control your quick-and-erratic experiments by keeping a full history of the code script along with the results and the console outputs.
+* You will be able to go back and look at previous experiments, retrieve all the results along with the exact code version used to generate them.
+* The ideal tool to keep track of your experiments in a Kaggle competition.
 
 
 How to install
@@ -43,5 +41,5 @@ runExp(expd, "sampleScript.R",  description = "sample execution v2" )
 runExp(expd, "sampleScript.R",  description = "sample execution v2" )
 ```
 
-download this sample script [ExperimentManager_usage_example.R](https://raw.githubusercontent.com/atno/ExperimentManager/master/sample/ExperimentManager_usage_example.R)
+download this sample script here [ExperimentManager_usage_example.R](https://raw.githubusercontent.com/atno/ExperimentManager/master/sample/ExperimentManager_usage_example.R)
 
